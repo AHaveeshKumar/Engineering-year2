@@ -1,0 +1,46 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+			let item = {
+				"name":"Reebok Shoes",
+				"price":"Rs. 2000",
+				"avail_qty":34
+			};
+			
+			document.write(item.name+" "+item.price+" "+item.avail_qty+"<br/>");
+			
+			/*function proditem(name, price, qty){
+				this.name = name;
+				this.price = price;
+				this.qty = qty;
+				/*this.show = ()=>{
+					document.write(this.name+" "+ this.price+" "+this.qty+"<br/>");
+				}*/
+/*			}*/
+			class proditem{
+				constructor(name, price, qty){
+					this.name = name;
+					this.price = price;
+					this.qty = qty;
+				}
+				show(){
+					document.write(this.name+" "+ this.price+" "+this.qty+"<br/>");
+				}
+			}
+			/*proditem.prototype.show=()=>{
+				document.write(this.name+" "+ this.price+" "+this.qty+"<br/>");
+			}
+			proditem.prototype.prodtype = "Footwear";*/
+			
+			let p1 = new proditem("Reebok Shoes", "Rs. 2000", 34);
+			
+			let p2 = new proditem("Nike Shoes", "Rs. 3000", 14);
+			
+			p1.show();
+			p2.show();
+			//document.write(p1.prodtype);
+		</script>
+	</body>
+</html>

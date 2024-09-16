@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Registration Form</title>
+		
+		<style>
+			label {
+				color:red;
+				background:yellow;
+				
+			}
+		</style>
+		<link rel="stylesheet" href="style3a.css"/>
+	</head>
+	<body>
+		<p>Enter your details</p>
+		<form method="get" action="survey.py" target="_blank">
+			<label>*Username:</label><input type="text" required placeholder="Enter email/username/phno" name="username"/><br/>
+			<label>Gender:</label>
+			<input type="radio" name="gender" value="m"/><label>Male</label>
+			<input type="radio" name="gender" value="f"/><label>Female</label>
+			<input checked type="radio" name="gender" value="x"/><label>Prefer not to enter</label><br/>
+			<label style="color:pink;background:yellow">Hobbies:</label>
+			<input type="checkbox" name="hob" value="football"/><label>Playing Football</label>
+			<input type="checkbox" name="hob" value="movies"/><label>Watching Movies</label><br/>
+			<label>Country:</label>
+			<select name="country">
+				<option value="in">India</option>
+				<option selected value="de">Germany</option>
+				<option value="np">Nepal</option>
+			</select><br/>
+			<label>Fav. Color</label><input type="Color" value="#FF0000" name="favcolor"/><br/>
+			<label>Email:</label><input type="email" name="email"/><br/>
+			<label>Age:</label><input type="number" value=18 min=1 max=100 step=1 name="age"/><br/>
+			<label>Salary:</label><input type="range" min=1000 max=100000 step=1000 name="salary"/><br/>
+			<button type="submit">Send</button>
+			<button type="reset">Reset</button>
+			<!--<input type="reset" value="Reset"/>-->
+		</form>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<!--
+			style property - inline
+			style tag in head - internal
+			.css file linked to html - external
+		-->
+		<title>My Web Page</title>
+		<style>
+			.list {
+				color: red;
+				font-size:14px;
+			}
+			
+			ul.list {
+				border:1px solid black;
+				color: blue;
+				font-size:16px;
+			}
+			#special:hover {
+				color: green;
+				font-size:18px;
+			}
+			#pos {
+				position:fixed;
+				top:10px;
+				left:10px;
+			}
+			#itempos {
+				position:sticky;
+				top:10px;
+				left:10px;
+			}
+		</style>
+		<link type="stylesheet" src="style.css"/>
+	</head>
+	<body>
+		<h1 id="top">My First Web Page</h1>
+		<h6>My details</h6>
+		<p id="pos1">Here are my details....</p>
+		<p>For timepass I do these things</p>
+		<ul class="list">
+			<li id="itempos">Eat chats</li>
+			<li>Watch Movies</li>
+			<li>Dummy</li>
+			<li>Dummy</li>
+			<li>Dummy</li>
+		</ul>
+		<p>My Favorite Avengers</p>
+		<ol class="list">
+			<li id="special">Iron Man</li>
+			<li>Hulk</li>
+			<li>Captain America</li>
+		</ol>
+		<dl class="list">
+			<dt>Iron Man</dt>
+			<dd>Can fly, can punch, tech savvy</dd>
+			<dt>Captain America</dt>
+			<dd>Cannot fly, has a Sheild</dd>
+		</dl>
+		<h3>Avenger Dets</h3>
+		<table border="1px">
+			
+			<tr>
+				<th>Name</th>
+				<th>Powers</th>
+			</tr>
+			<tr>
+				<th>Captain America</th>
+				<td>Cannot fly, has a Sheild</td>
+			</tr>
+			<tr>
+				<th>Iron Man</th>
+				<td>Can fly, can punch, tech savvy</td>
+			</tr>
+			<caption>Avenger Dets</caption>
+		</table>
+		<img height="100px" width="100px" src="logo.jpg"/>
+		
+		<a href="http://www.amazon.in/info.html">For more details click here</a>
+		<br/>
+		<a href="#top">Go to top....</a>
+	</body>
+</html>
