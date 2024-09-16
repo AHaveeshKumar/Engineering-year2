@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/haveesh/engineering year 2/DSA C/HARDCODE/1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createChat, symObjAddr: 0x0, symBinAddr: 0x100003784, symSize: 0x54 }
+  - { offsetInCU: 0xA7, offset: 0xA7, size: 0x8, addend: 0x0, symName: _createChat, symObjAddr: 0x0, symBinAddr: 0x100003784, symSize: 0x54 }
+  - { offsetInCU: 0xDD, offset: 0xDD, size: 0x8, addend: 0x0, symName: _addNewChat, symObjAddr: 0x54, symBinAddr: 0x1000037D8, symSize: 0x94 }
+  - { offsetInCU: 0x12B, offset: 0x12B, size: 0x8, addend: 0x0, symName: _pinAChat, symObjAddr: 0xE8, symBinAddr: 0x10000386C, symSize: 0x194 }
+  - { offsetInCU: 0x179, offset: 0x179, size: 0x8, addend: 0x0, symName: _unpinAChat, symObjAddr: 0x27C, symBinAddr: 0x100003A00, symSize: 0xC4 }
+  - { offsetInCU: 0x1B9, offset: 0x1B9, size: 0x8, addend: 0x0, symName: _showAllChats, symObjAddr: 0x340, symBinAddr: 0x100003AC4, symSize: 0xB4 }
+  - { offsetInCU: 0x1EB, offset: 0x1EB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3F4, symBinAddr: 0x100003B78, symSize: 0x244 }
+...

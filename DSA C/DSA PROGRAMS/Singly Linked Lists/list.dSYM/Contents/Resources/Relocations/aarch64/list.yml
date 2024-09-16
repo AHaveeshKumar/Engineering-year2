@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/haveesh/engineering year 2/DSA C/DSA PROGRAMS/Singly Linked Lists/list'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000038C0, symSize: 0x17C }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000038C0, symSize: 0x17C }
+  - { offsetInCU: 0xC2, offset: 0xC2, size: 0x8, addend: 0x0, symName: _init_list, symObjAddr: 0x194, symBinAddr: 0x100003A54, symSize: 0x18 }
+  - { offsetInCU: 0xE6, offset: 0xE6, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x1AC, symBinAddr: 0x100003A6C, symSize: 0x9C }
+  - { offsetInCU: 0x118, offset: 0x118, size: 0x8, addend: 0x0, symName: _insert_end, symObjAddr: 0x248, symBinAddr: 0x100003B08, symSize: 0xB0 }
+  - { offsetInCU: 0x166, offset: 0x166, size: 0x8, addend: 0x0, symName: _insert_head, symObjAddr: 0x2F8, symBinAddr: 0x100003BB8, symSize: 0x5C }
+  - { offsetInCU: 0x1B4, offset: 0x1B4, size: 0x8, addend: 0x0, symName: _delete_last, symObjAddr: 0x354, symBinAddr: 0x100003C14, symSize: 0xC0 }
+  - { offsetInCU: 0x1F4, offset: 0x1F4, size: 0x8, addend: 0x0, symName: _delete_first, symObjAddr: 0x414, symBinAddr: 0x100003CD4, symSize: 0x68 }
+  - { offsetInCU: 0x226, offset: 0x226, size: 0x8, addend: 0x0, symName: _delete_node, symObjAddr: 0x47C, symBinAddr: 0x100003D3C, symSize: 0x128 }
+...

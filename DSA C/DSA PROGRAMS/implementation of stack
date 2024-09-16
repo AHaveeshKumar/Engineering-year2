@@ -1,0 +1,12 @@
+#include<studio.h>
+#include<stdlib.h>
+struct STACK{
+    int size,s;
+
+};
+int push(STACK*, int);
+int stack_prec(int);
+int main{
+    STACK stk;
+    int top size,ch,k,x;
+}

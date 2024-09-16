@@ -1,0 +1,150 @@
+C stdio Functions
+The <stdio.h> header provides a variety of functions for input, output and file handling.
+
+A list of all stdio functions can be found in the table below:
+
+Function	Description
+fclose()	Closes a file
+feof()	Returns a true value when the position indicator has reached the end of the file
+ferror()	Returns a true value if a recent file operation had an error
+fgetc()	Returns the ASCII value of a character in a file and advances the position indicator
+fgets()	Reads a line from a file and advances the position indicator
+fopen()	Opens a file and returns a file pointer for use in file handling functions
+fprintf()	Writes a formatted string into a file
+fputc()	Writes a character into a file and advances the position indicator
+fputs()	Writes a string into a file and advances the position indicator
+fread()	Reads data from a file and writes it into a block of memory
+fscanf()	Reads formatted data from a file and writes it into a number of memory locations
+fseek()	Moves the position indicator of a file pointer
+ftell()	Returns the value of the position indicator of a file pointer
+fwrite()	Writes data from a block of memory into a file
+getc()	The same as fgetc()
+getchar()	Reads one character of user input and returns its ASCII value
+printf()	Writes a formatted string to the console
+putc()	The same as fputc()
+putchar()	Outputs a single character to the console
+puts()	Outputs a string to the console
+remove()	Deletes a file
+rename()	Changes the name of a file
+rewind()	Moves the position indicator to the beginning of the file
+scanf()	Reads formatted data from user input and writes it into a number of memory locations
+snprintf()	Writes a formatted string into a char array (memory-safe)
+sprintf()	Writes a formatted string into a char array
+sscanf()	Reads a formatted string from a char array and writes it into a number of memory locations
+
+
+
+
+
+The <stdlib.h> header (standard library) provides a variety of commonly used functions.
+
+Function	Description
+abs()	Return the absolute (positive) value of a whole number
+atof()	Return a double value from a string representation of a number
+atoi()	Return an int value from a string representation of a whole number
+atol()	Return a long int value from a string representation of a whole number
+atoll()	Return a long long int value from a string representation of a whole number
+calloc()	Allocate dynamic memory and fill it with zeroes
+div()	Return the quotient and remainder of an integer division
+exit()	End the program
+free()	Deallocate dynamic memory
+malloc()	Allocate dynamic memory
+qsort()	Sort the contents of an array
+rand()	Generate a random integer
+realloc()	Reallocate dynamic memory
+srand()	Initialize the random number generator
+
+
+
+
+The <string.h> library has many functions that allow you to perform tasks on strings.
+
+A list of all string functions can be found in the table below:
+
+Function	Description
+memchr()	Returns a pointer to the first occurrence of a value in a block of memory
+memcmp()	Compares two blocks of memory to determine which one represents a larger numeric value
+memcpy()	Copies data from one block of memory to another
+memmove()	Copies data from one block of memory to another accounting for the possibility that the blocks of memory overlap
+memset()	Sets all of the bytes in a block of memory to the same value
+strcat()	Appends one string to the end of another
+strchr()	Returns a pointer to the first occurrence of a character in a string
+strcmp()	Compares the ASCII values of characters in two strings to determine which string has a higher value
+strcoll()	Compares the locale-based values of characters in two strings to determine which string has a higher value
+strcpy()	Copies the characters of a string into the memory of another string
+strcspn()	Returns the length of a string up to the first occurrence of one of the specified characters
+strerror()	Returns a string describing the meaning of an error code
+strlen()	Return the length of a string
+strncat()	Appends a number of characters from a string to the end of another string
+strncmp()	Compares the ASCII values of a specified number of characters in two strings to determine which string has a higher value
+strncpy()	Copies a number of characters from one string into the memory of another string
+strpbrk()	Returns a pointer to the first position in a string which contains one of the specified characters
+strrchr()	Returns a pointer to the last occurrence of a character in a string
+strspn()	Returns the length of a string up to the first character which is not one of the specified characters
+strstr()	Returns a pointer to the first occurrence of a string in another string
+strtok()	Splits a string into pieces using delimiters
+strxfrm()	Convert characters in a string from ASCII encoding to the encoding of the current locale
+
+
+
+
+The   <MATH.H>     library has many functions that allow you to perform mathematical tasks on numbers.
+
+Function	Description
+acos(x)	Returns the arccosine of x, in radians
+acosh(x)	Returns the hyperbolic arccosine of x
+asin(x)	Returns the arcsine of x, in radians
+asinh(x)	Returns the hyperbolic arcsine of x
+atan(x)	Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+atan2(y, x)	Returns the angle theta from the conversion of rectangular coordinates (x, y) to polar coordinates (r, theta)
+atanh(x)	Returns the hyperbolic arctangent of x
+cbrt(x)	Returns the cube root of x
+ceil(x)	Returns the value of x rounded up to its nearest integer
+copysign(x, y)	Returns the first floating point x with the sign of the second floating point y
+cos(x)	Returns the cosine of x (x is in radians)
+cosh(x)	Returns the hyperbolic cosine of x
+exp(x)	Returns the value of Ex
+exp2(x)	Returns the value of 2x
+expm1(x)	Returns ex-1
+erf(x)	Returns the value of the error function at x
+erfc(x)	Returns the value of the complementary error function at x
+fabs(x)	Returns the absolute value of x
+fdim(x)	Returns the positive difference between x and y
+floor(x)	Returns the value of x rounded down to its nearest integer
+fma(x, y, z)	Returns x*y+z without losing precision
+fmax(x, y)	Returns the highest value of a floating x and y
+fmin(x, y)	Returns the lowest value of a floating x and y
+fmod(x, y)	Returns the floating point remainder of x/y
+frexp(x, y)	With x expressed as m*2n, returns the value of m (a value between 0.5 and 1.0) and writes the value of n to the memory at the pointer y
+hypot(x, y)	Returns sqrt(x2 +y2) without intermediate overflow or underflow
+ilogb(x)	Returns the integer part of the floating-point base logarithm of x
+ldexp(x, y)	Returns x*2y
+lgamma(x)	Returns the logarithm of the absolute value of the gamma function at x
+llrint(x)	Rounds x to a nearby integer and returns the result as a long long integer
+llround(x)	Rounds x to the nearest integer and returns the result as a long long integer
+log(x)	Returns the natural logarithm of x
+log10(x)	Returns the base 10 logarithm of x
+log1p(x)	Returns the natural logarithm of x+1
+log2(x)	Returns the base 2 logarithm of the absolute value of x
+logb(x)	Returns the floating-point base logarithm of the absolute value of x
+lrint(x)	Rounds x to a nearby integer and returns the result as a long integer
+lround(x)	Rounds x to the nearest integer and returns the result as a long integer
+modf(x, y)	Returns the decimal part of x and writes the integer part to the memory at the pointer y
+nan(s)	Returns a NaN (Not a Number) value
+nearbyint(x)	Returns x rounded to a nearby integer
+nextafter(x, y)	Returns the closest floating point number to x in the direction of y
+nexttoward(x, y)	Returns the closest floating point number to x in the direction of y
+pow(x, y)	Returns the value of x to the power of y
+remainder(x, y)	Return the remainder of x/y rounded to the nearest integer
+remquo(x, y, z)	Calculates x/y rounded to the nearest integer, writes the result to the memory at the pointer z and returns the remainder.
+rint(x)	Returns x rounded to a nearby integer
+round(x)	Returns x rounded to the nearest integer
+scalbln(x, y)	Returns x*Ry (R is usually 2)
+scalbn(x, y)	Returns x*Ry (R is usually 2)
+sin(x)	Returns the sine of x (x is in radians)
+sinh(x)	Returns the hyperbolic sine of x
+sqrt(x)	Returns the square root of x
+tan(x)	Returns the tangent of x (x is in radians)
+tanh(x)	Returns the hyperbolic tangent of x
+tgamma(x)	Returns the value of the gamma function at x
+trunc(x)	Returns the integer part of x
